@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой первый сайт</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background: #4a90e2;
+            color: #fff;
+            padding: 1.5rem;
+            text-align: center;
+        }
+        main {
+            flex: 1;
+            padding: 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+            width: 100%;
+            box-sizing: border-box;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #333;
+            color: #fff;
+            font-size: 0.9rem;
+        }
+        h1 {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Добро пожаловать на мой сайт!</h1>
+    </header>
+
+    <main>
+        <h2>Обо мне</h2>
+        <p>Это простая веб-страница, созданная с использованием HTML и CSS. Она отлично отображается как на компьютере, так и на экранах смартфонов.</p>
+        
+        <h2>Контакты</h2>
+        <p>Вы можете связаться со мной по электронной почте: <a href="mailto:example@domain.com">example@domain.com</a></p>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Мой сайт. Все права защищены.</p>
+    </footer>
+
+</body>
+</html>
